@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: /style/
+
+sitemap: www.yoursitemap.idk
