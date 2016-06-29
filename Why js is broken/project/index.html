@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Why js is broken</title>
+</head>
+
+<body>
+	<h1>This is why we have JS!!!</h1>
+
+	<div class="content">
+		<div class="sample">
+			<div class="input">	
+				<div class="statement">
+					<span>What should </span>
+					<div class="codeSample">	
+						var foo = function(){return typeof null === "undefined"} <br/>
+						for(var i = 0; i <= 10000; i++){console.log(foo());}
+					</div> 
+					<span>return?</span>
+				</div>
+				<button class="submit" id="undefinedStatement">Submit</button>
+			</div>
+			<div class="output">
+				<div id="undefinedStatementOutputTrue">0</div>
+				<div id="undefinedStatementOutputFalse">0</div>				
+			</div>
+		</div>
+		
+		<div class="sample">
+			<div class="input">	
+				<div class="statement">
+					<span>What should</span>
+					<div id="codeSample">
+						[] + [] 
+					</div>
+					<span>return ? </span>
+				</div>
+				<button class="submit" id="addArraysButton">Submit</button>
+			</div>
+			<div class="output">
+				<div id="addArraysoitput"></div>			
+			</div>
+		</div>
+
+		<div class="sample">
+			<div class="input">	
+				<div class="statement">
+					<span>What should</span> 
+						<div id="codeSample">
+							[] + {}
+						</div>
+					<span>return ? </span>
+				</div>
+				<button class="submit" id="addArrayObjectButton">Submit</button>
+			</div>
+			<div class="output">
+				<div id="addArrayObjectitput"></div>			
+			</div>
+		</div>
+
+		<div class="sample">
+			<div class="input">	
+				<div class="statement">
+					<span>What should</span> 
+						<div id="codeSample">
+ 							{} + []	
+ 						</div>
+					<span>return ? </span>
+				</div>
+				<button class="submit" id="addObjectArrayButton">Submit</button>
+			</div>
+			<div class="output">
+				<div id="addObjectArrayitput"></div>			
+			</div>
+		</div>
+
+
+		<div class="sample">
+			<div class="input">	
+				<div class="statement">
+					<span>What should</span> 
+						<div id="codeSample">
+ 							{} + {}	
+ 						</div>
+					<span>return ? </span>
+				</div>
+				<button class="submit" id="addObjectsButton">Submit</button>
+			</div>
+			<div class="output">
+				<div id="addObjectsitput"></div>			
+			</div>
+		</div>
+
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

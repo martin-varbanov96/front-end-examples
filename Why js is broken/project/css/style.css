@@ -1,0 +1,29 @@
+.content{
+
+    margin: auto;
+    width: 50%;
+}
+h1{
+	text-align: center;
+	color: #1A1;
+}
+
+.sample{
+	color: #1A1;
+	border:  5px solid #1A1;
+	padding: 5px;
+	margin: 10px; 
+}
+button{
+	background-color: inherit;
+	border: 2px solid #1A1; 
+}
+.input{
+	display: inline-block;
+}
+.output{
+	display: inline-block;
+    float: right;
+    width: inherit;
+    height: inherit;
+}
